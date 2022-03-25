@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Css positioning</title>
+  <style type="text/css">
+    body{
+      margin: 20px;
+      border: solid 2px black;
+    }
+    .container{
+      position: relative;
+      margin: 30px;
+      border: solid 1px orange;
+      padding: 10px;
+    }
+    .box1{
+      width:100px;
+      height:100px;
+    }
+    .box2{
+      width:100px;
+      height:100px;
+      background:blue;
+      border: yellow solid;
+      position: absolute;
+      left: 40px;
+      top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box1" style="background:pink;"></div>
+    <div class="box2"></div>
+    <div class="box1" style="background:green;"></div>
+    <div class="box1" style="background:beige;"></div>
+  </div>
+</body>
+</html>
